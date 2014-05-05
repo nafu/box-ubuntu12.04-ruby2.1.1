@@ -1,10 +1,14 @@
-# ubuntu12.04-ruby2.0.0 box
+# ubuntu12.04-ruby2.1.1 box
 
-An ubuntu box containing Ruby 2.0.0-p353.
+An ubuntu box containing Ruby 2.1.1
+
+[![wercker status](https://app.wercker.com/status/b00e9efbffccb4ec57a6177ee2c7b4c2/m/ "wercker status")](https://app.wercker.com/project/bykey/b00e9efbffccb4ec57a6177ee2c7b4c2)
+
+See sample rails application -> [rails-wercker-heroku-boilerplate](https://github.com/nafu/rails-wercker-heroku-boilerplate "rails-wercker-heroku-boilerplate")
 
 # What's new
 
-- Update Ruby version to 2.0.0-p353
+- Update Ruby version to 2.1.1
 
 # License
 
@@ -12,37 +16,10 @@ The MIT License (MIT)
 
 # Changelog
 
+## 1.0.1
+
+- Updated bundler version
+
 ## 1.0.0
 
-- Update Ruby version to 2.0.0-p353
-
-## 0.3.1
-
-- Update reference to web-essentials version `0.0.12`
-
-## 0.3.0
-
-- Update reference to web-essentials version `0.0.11`
-
-## 0.2.0
-
-- `libqtwebkit-dev` installed on box for Capybara purposes
-
-## 0.1.9
-
-- `RAILS_ENV` and `RACK_ENV` are now exported with "test"
-
-## 0.1.5
-
-- Update inheritance to wercker/ubuntu12.04-webessentials@0.0.5
-- Update wercker-essential-cookbook to 0.0.4
-- Update phantomjs to 1.9.1
-
-## 0.1.3
-
-- Add license
-- Update readme
-
-## 0.1.2
-
-- Initial release
+- Forked from [ubuntu12.04-ruby2.0.0 box](https://github.com/wercker/box-ubuntu12.04-ruby2.0.0 "ubuntu12.04-ruby2.0.0 box")
